@@ -1,0 +1,18 @@
+﻿Build started 29/01/2015 12:58:47.
+     1>Project "M:\Group Project\new framework\Prototype 1.0\cw1_app.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "PSVita_Debug\cw1_app.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         sprite_application.cpp
+         psp2snc.exe -D_DEBUG -o PSVita_Debug\sprite_application.o -c -Xdepmode=1 -MD -Xmserrors -I"M:\Group Project\new framework\abertay_framework\external" -I"M:\Group Project\new framework\abertay_framework" -I"C:\Program Files (x86)\SCE\PSP2 SDKs\3.150\host_tools\build\include" -I"C:\Program Files (x86)\SCE\PSP2 SDKs\3.150\target\include" -I"C:\Program Files (x86)\SCE\PSP2 SDKs\3.150\target\include_common" -g -O0 "M:\Group Project\new framework\Prototype 1.0\sprite_application.cpp"
+       Link:
+         C:\Program Files (x86)\SCE\PSP2 SDKs\3.150\host_tools\build\bin\psp2ld.exe -o "M:\Group Project\new framework\Prototype 1.0\PSVita_Debug\cw1_app.self" -L"C:\Program Files (x86)\SCE\PSP2 SDKs\3.150\target\lib" --start-group PSVita_Debug\Blade.o PSVita_Debug\collectible.o PSVita_Debug\contact_listener.o PSVita_Debug\enemy.o PSVita_Debug\game_object.o PSVita_Debug\main_vita.o PSVita_Debug\plant.o PSVita_Debug\platforms.o PSVita_Debug\player.o PSVita_Debug\spike.o PSVita_Debug\sprite_application.o "M:\Group Project\new framework\Prototype 1.0\PSVita_Debug\abertay_framework.a" "M:\Group Project\new framework\Prototype 1.0\PSVita_Debug\Box2D.a" "M:\Group Project\new framework\Prototype 1.0\PSVita_Debug\libpng.a" "M:\Group Project\new framework\Prototype 1.0\PSVita_Debug\zlib.a" "-lSceFios2_stub" "-lSceDbg_stub" "-lSceGxm_stub" "-lSceDisplay_stub" "-lSceCtrl_stub" "-lSceSysmodule_stub" "-lSceNgs_stub_weak" "-lSceAudio_stub" "-lSceTouch_stub" --end-group
+         cw1_app.vcxproj -> M:\Group Project\new framework\Prototype 1.0\PSVita_Debug\cw1_app.self
+       FinalizeBuildStatus:
+         Deleting file "PSVita_Debug\cw1_app.unsuccessfulbuild".
+         Touching "PSVita_Debug\cw1_app.lastbuildstate".
+     1>Done Building Project "M:\Group Project\new framework\Prototype 1.0\cw1_app.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.74
